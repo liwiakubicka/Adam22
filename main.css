@@ -1,0 +1,102 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: verdana;
+}
+
+.list {
+    margin: 20 auto auto 50; 
+    width: 100%;
+}
+
+.list ul {
+    columns: 3;
+    -webkit-columns: 3;
+    -moz-columns: 3;
+  }
+
+.list li{
+    margin: 5px;
+}
+
+.list li a {
+    text-decoration: none;
+    color: black;
+}
+
+.list li a:hover{
+    text-decoration: none;
+    font-style: oblique;
+    color: rgb(9, 100, 19);
+}
+
+.transcript {
+    margin: auto;
+    width: 80%;
+}
+
+p {
+    text-justify: inter-character;
+    word-break: break-all;
+    text-align: justify;
+    display: inline-block;
+}
+
+p mark {
+    background-color: yellow;
+}
+
+p mark mark {
+    background-color: rgb(147, 147, 225);
+}
+
+p mark mark mark{
+    background-color: green;
+}
+
+p mark mark mark mark{
+    background-color: red;
+}
+
+p mark mark mark mark mark {
+    background-color: violet;
+}
+
+p mark mark mark mark mark mark{
+    background-color: rgb(95, 192, 133);
+}
+
+p mark mark mark mark mark mark mark{
+    background-color: rgb(105, 94, 143);
+}
+
+p mark mark mark mark mark mark mark mark{
+    background-color: rgb(186, 98, 4);
+}
+
+p mark mark mark mark mark mark mark mark mark{
+    background-color: rgb(255, 0, 242);
+}
+
+
+  #myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
